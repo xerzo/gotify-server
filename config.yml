@@ -1,7 +1,7 @@
 server:
   port: 8080 # the port for the http server
   ssl:
-    enabled: false # Render automatically enables SSL for the server
+    enabled: true # Render automatically enables SSL for the server
   responseheaders: # response headers added to every response (default: none)
     Access-Control-Allow-Origin: "*"
     Access-Control-Allow-Methods: "GET,POST"
